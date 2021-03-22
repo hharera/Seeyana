@@ -1,0 +1,104 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProgressTwo.FragFifthProTwo">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <FrameLayout
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="5dp"
+            android:background="@drawable/rect_background_spinner">
+
+            <Spinner
+                android:id="@+id/city_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="@android:color/transparent"
+                android:entries="@array/spinner_first"></Spinner>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select City"
+                android:textSize="20sp"
+                android:textColor="#524E52"
+                android:paddingLeft="20dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10sp"
+                android:src="@drawable/ic_down_arrow"
+
+                />
+
+        </FrameLayout>
+
+        <FrameLayout
+            android:padding="5dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginRight="20dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/rect_background_spinner">
+
+            <Spinner
+                android:id="@+id/area_spinner"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_gravity="center"
+                android:backgroundTint="@android:color/transparent"
+                android:entries="@array/spinner_second"></Spinner>
+            <TextView
+                android:visibility="gone"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Select Area"
+                android:textSize="20sp"
+                android:textColor="#524E52"
+                android:paddingLeft="20dp"
+                />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_gravity="right|center"
+                android:layout_marginRight="10sp"
+                android:src="@drawable/ic_down_arrow"
+
+                />
+
+
+        </FrameLayout>
+
+        <CheckBox
+            android:id="@+id/will_travel_check_box"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginRight="20dp"
+            android:buttonTint="#88F5BB0D"
+            android:lineSpacingMultiplier=".7"
+            android:paddingLeft="5dp"
+            android:text="Yes, I'm willing to travel to others cities for work?"
+            android:textSize="12sp" />
+
+
+    </LinearLayout>
+
+</FrameLayout>

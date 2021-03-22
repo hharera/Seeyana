@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProgressTwo.FragSecondProTwo">
+
+    <androidx.recyclerview.widget.RecyclerView
+        android:id="@+id/main_skill_recycler_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" />
+
+<!--       <ScrollView-->
+<!--           android:fillViewport="true"-->
+<!--           android:layout_width="match_parent"-->
+<!--           android:orientation="vertical"-->
+<!--           android:layout_height="match_parent">-->
+
+<!--           <LinearLayout-->
+<!--               android:id="@+id/layoutCategories"-->
+<!--               android:orientation="vertical"-->
+<!--               android:layout_width="match_parent"-->
+<!--               android:layout_height="wrap_content">-->
+
+<!--               <TextView-->
+<!--                   android:layout_marginTop="4dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:id="@+id/tv_1"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="Plumber"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="AC Technician"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="Electrician"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="Mechanic"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="Carpenter"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="AC Technician"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="Plumber"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+
+<!--               <TextView-->
+<!--                   android:layout_marginTop="3dp"-->
+<!--                   android:layout_width="match_parent"-->
+<!--                   android:layout_height="65dp"-->
+<!--                   android:background="@drawable/cat_back"-->
+<!--                   android:text="AC Technician"-->
+<!--                   android:textSize="22sp"-->
+<!--                   android:textColor="#383F4D"-->
+<!--                   android:textStyle="bold"-->
+<!--                   android:gravity="center"-->
+<!--                   />-->
+
+<!--           </LinearLayout>-->
+
+<!--       </ScrollView>-->
+
+</FrameLayout>

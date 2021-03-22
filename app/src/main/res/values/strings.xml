@@ -1,0 +1,63 @@
+<resources>
+    <string name="app_name">Seeyana Handyman</string>
+    <string name="config_changes">orientation</string>
+    <string name="screen_orient">portrait</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="earn_and_review"><![CDATA[Earn &]]></string>
+    <string name="get_receipt"><![CDATA[Get receipts & promotions in your inbox]]></string>
+    <string name="Take_a_photo"><![CDATA[Take a photo of front & back of]]></string>
+    <string name="Take_a_photo2"><![CDATA[your ID & upload them]]></string>
+    <string name="Take_a_photo_report"><![CDATA[Take a photo of your Police report]]></string>
+    <string name="Take_a_photo_report2"><![CDATA[certificate & upload it]]></string>
+    <string name="agree_to_terms"><![CDATA[Agree to Terms & Conditions]]></string>
+    <string name="lorum_ipsum">At vero eos et accusamus et iusto odio dignissimos ducimus qui blanditiis praesentium voluptatum deleniti atque corrupti quos dolores et quas molestias excepturi sint occaecati cupiditate non provident, similique sunt in culpa qui officia deserunt mollitia animi, id est laborum et dolorum fuga. Et harum quidem rerum facilis est et expedita distinctio. Nam libero tempore, cum soluta nobis est eligendi optio cumque nihil impedit quo minus id quod maxime placeat facere possimus omnis voluptas assumenda est, omnis dolor repellendus. Temporibus autem quibusdam et aut officiis debitis aut rerum necessitatibus saepe eveniet ut et voluptates repudiandae sint et molestiae non recusandae. Itaque earum rerum hic tenetur a sapiente delectus, ut aut reiciendis voluptatibus maiores alias consequatur aut perferendis doloribus asperiores repellat\n\nSed ut perspiciatis unde omnis iste natus error sit voluptatem accusantium doloremque laudantium, totam rem aperiam, eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo. Nemo enim ipsam voluptatem quia voluptas sit aspernatur aut odit aut fugit, sed quia consequuntur magni dolores eos qui ratione voluptatem sequi nesciunt\n\nQuis autem vel eum iure reprehenderit qui in ea voluptate velit esse quam nihil molestiae consequatur, vel illum qui dolorem eum fugiat quo voluptas nulla pariatur</string>
+    <string name="yes_i_agree">Yes, I agree to <u>Terms &amp; Conditions</u> and <u>Privacy Policy</u>.</string>
+
+    <string-array name="spinner_first">
+        <item>Select City</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+
+    <string-array name="spinner_second">
+        <item>Select Area</item>
+        <item>Option 1</item>
+        <item>Option 2</item>
+        <item>Option 3</item>
+        <item>Option 4</item>
+    </string-array>
+
+    <string-array name="expertises">
+        <item>Plumber</item>
+        <item>AC Technician</item>
+        <item>Electrician</item>
+        <item>Mechanic</item>
+        <item>Carpenter</item>
+    </string-array>
+
+    <string name="places_api_key" translatable="false">AIzaSyCPKWD1-apdyC2PMk267mvsdnMjWZUygww</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+
+    <string name="home">Messages</string>
+    <string name="reward">My Jobs</string>
+    <string name="favorites">Job Invites</string>
+    <string name="profile">My Profile</string>
+    <string name="installation_of_water_heater_new_bathhub"><![CDATA[Installation of water heater & new bathhub\n]]></string>
+    <string name="kitchen_faucet_replacement_sink_pipe_cleaning"><![CDATA[Kitchen faucet replacement & sink pipe cleaning]]></string>
+    <string name="enter_your_cost_estimate">Enter your cost estimate<font color='#EE0000'>*</font></string>
+    <string name="describe_your_effort">Describe your effort<font color='#EE0000'>*</font></string>
+    <string name="professional_bmw_mercedes_audi_all_gerrman_cars_and_model_makes_all_in_a"><![CDATA[Professional BMW, Mercedes, Audi & all german cars and model makes all in a...]]></string>
+    <string name="phone_number">Phone Number</string>
+    <string name="continue_button">Continue</string>
+    <string name="verification_code">Verification Code</string>
+    <string name="enter_otp_code">Enter the OTP Code sent to your phone</string>
+    <string name="sign_in">Sign In</string>
+    <string name="sign_out">Sign Out</string>
+
+</resources>

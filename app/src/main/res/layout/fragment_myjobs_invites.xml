@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentsPart3.Myjobs_invites">
+
+    <LinearLayout
+        android:id="@+id/tabs"
+        android:background="#F1F0F2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp">
+        <RelativeLayout
+            android:id="@+id/tab2"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <TextView
+                android:id="@+id/tab2_txt"
+                android:layout_centerVertical="true"
+                android:layout_centerHorizontal="true"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:fontFamily="sans-serif"
+                android:textAlignment="center"
+                android:text="You have been invited to these jobs,\nclick to view their details."
+                android:textColor="@color/black"
+                android:textSize="16dp"/>
+            <View
+                android:id="@+id/tab2_line"
+                android:layout_alignParentBottom="true"
+                android:background="@color/yellow"
+                android:layout_width="match_parent"
+                android:layout_height="2dp"/>
+        </RelativeLayout>
+    </LinearLayout>
+
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/not_found"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/icon_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/find_job"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/t1"
+                android:layout_below="@+id/icon_1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You don't have any \ncompleted jobs yet"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/t1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Work"
+                android:textColor="@color/blue_color"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_below="@+id/tabs"
+        android:background="@color/white"
+        android:id="@+id/layoutJobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <include layout="@layout/custom_browse_jobs" />
+
+        <include layout="@layout/custom_browse_jobs_dum" />
+
+        <include layout="@layout/custom_browse_jobs" />
+
+        <include layout="@layout/custom_browse_jobs_dum" />
+
+
+
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+</RelativeLayout>

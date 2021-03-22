@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".FragmentProgressTwo.FragSixthProTwo">
+<LinearLayout
+    android:layout_width="match_parent"
+    android:orientation="vertical"
+    android:weightSum="10"
+    android:layout_marginTop="10dp"
+    android:layout_height="match_parent">
+
+    <EditText
+        android:id="@+id/skill_description_edit_text"
+        android:layout_marginTop="-5dp"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight="8"
+        android:paddingLeft="15dp"
+        android:backgroundTint="#88F5BB0D"
+        android:hint="Tap here and explain what services you provide and your skills to help customers understand your experience"
+        android:lineSpacingMultiplier=".6"
+        android:gravity="top"
+        android:textColor="#686668"
+        android:textSize="18sp"
+        />
+    <TextView
+        android:id="@+id/tvTotalLength"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="0/350"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="-5dp"
+        android:gravity="right"
+        android:textSize="14sp"
+        />
+
+</LinearLayout>
+
+</FrameLayout>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <declare-styleable name="SpaceNavigationView">
+        <attr name="space_item_icon_size" format="dimension" />
+        <attr name="space_item_icon_only_size" format="dimension" />
+        <attr name="space_item_text_size" format="dimension" />
+        <attr name="space_background_color" format="color" />
+        <attr name="centre_button_color" format="color" />
+        <attr name="active_item_color" format="color" />
+        <attr name="inactive_item_color" format="color" />
+        <attr name="centre_button_icon" format="reference" />
+        <attr name="active_centre_button_icon_color" format="color" />
+        <attr name="inactive_centre_button_icon_color" format="color" />
+        <attr name="active_centre_button_background_color" format="color"/>
+        <attr name="centre_part_linear" format="boolean" />
+    </declare-styleable>
+
+    <attr format="dimension" name="corner_radius"/>
+    <attr format="dimension" name="top_left_corner_radius"/>
+    <attr format="dimension" name="top_right_corner_radius"/>
+    <attr format="dimension" name="bottom_right_corner_radius"/>
+    <attr format="dimension" name="bottom_left_corner_radius"/>
+    <declare-styleable name="RoundKornerFrameLayout"><attr name="corner_radius"/><attr name="top_left_corner_radius"/><attr name="top_right_corner_radius"/><attr name="bottom_right_corner_radius"/><attr name="bottom_left_corner_radius"/></declare-styleable>
+    <declare-styleable name="RoundKornerLinearLayout"><attr name="corner_radius"/><attr name="top_left_corner_radius"/><attr name="top_right_corner_radius"/><attr name="bottom_right_corner_radius"/><attr name="bottom_left_corner_radius"/></declare-styleable>
+    <declare-styleable name="RoundKornerRelativeLayout"><attr name="corner_radius"/><attr name="top_left_corner_radius"/><attr name="top_right_corner_radius"/><attr name="bottom_right_corner_radius"/><attr name="bottom_left_corner_radius"/></declare-styleable>
+<!--    <string name="app_name">RoundKornerLayout</string>-->
+
+</resources>

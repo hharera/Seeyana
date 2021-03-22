@@ -1,0 +1,407 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".FragmentsPart3.notification_fragment">
+
+    <RelativeLayout
+        android:visibility="gone"
+        android:id="@+id/not_found"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:layout_below="@+id/tabs"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:layout_centerVertical="true"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+
+            <ImageView
+                android:layout_centerHorizontal="true"
+                android:id="@+id/icon_1"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:src="@drawable/find_job"/>
+            <TextView
+                android:layout_marginTop="15dp"
+                android:id="@+id/t1"
+                android:layout_below="@+id/icon_1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="You don't have any \ncompleted jobs yet"/>
+            <TextView
+                android:layout_marginTop="30dp"
+                android:layout_centerHorizontal="true"
+                android:layout_below="@+id/t1"
+                android:textStyle="bold"
+                android:textSize="20dp"
+                android:fontFamily="sans-serif"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Find Work"
+                android:textColor="@color/blue_color"/>
+        </RelativeLayout>
+    </RelativeLayout>
+    <LinearLayout
+        android:visibility="visible"
+        android:layout_below="@+id/tabs"
+        android:background="@color/white"
+        android:id="@+id/layoutJobs"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/cat_back">
+            <RelativeLayout
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <RelativeLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/icon_lay"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content">
+
+                    <!--<RelativeLayout-->
+                        <!--android:id="@+id/count_msg"-->
+                        <!--android:layout_marginRight="5dp"-->
+                        <!--android:layout_alignParentRight="true"-->
+                        <!--android:background="@drawable/blue_circle"-->
+                        <!--android:layout_width="20dp"-->
+                        <!--android:layout_height="20dp">-->
+                        <!--<TextView-->
+                            <!--android:layout_centerHorizontal="true"-->
+                            <!--android:layout_centerVertical="true"-->
+                            <!--android:textSize="7dp"-->
+                            <!--android:textStyle="bold"-->
+                            <!--android:textColor="@color/white"-->
+                            <!--android:layout_width="wrap_content"-->
+                            <!--android:layout_height="wrap_content"-->
+                            <!--android:text="2"/>-->
+                    <!--</RelativeLayout>-->
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        app:civ_border_color="@color/yellow"
+                        app:civ_border_width="1dp"
+                        android:src="@drawable/person_1" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Some Name"
+                        android:textColor="#333333"
+                        android:fontFamily="sans-serif"
+                        android:textSize="11sp" />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_toLeftOf="@id/arrow_lay"
+                    android:layout_toRightOf="@id/icon_lay"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Hani T."
+                        android:textColor="#333333"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Accept your bid"
+                        android:singleLine="true"
+                        android:textColor="@color/blue_color"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Faculity car electricity and bettry..."
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textSize="16sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arrow_lay"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="9:45AM"
+                        android:fontFamily="sans-serif" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/yellow"
+                />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/cat_back_two">
+            <RelativeLayout
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/icon_lay2"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/notification_icon" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Some Name"
+                        android:textColor="#333333"
+                        android:fontFamily="sans-serif"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_toLeftOf="@id/arrow_lay2"
+                    android:layout_toRightOf="@id/icon_lay2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#333333"
+                        android:textSize="15sp"
+                        />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="You have successfuly update your password"
+                        android:singleLine="true"
+                        android:textColor="@color/blue_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arrow_lay2"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="20 Days"
+                        android:fontFamily="sans-serif" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/yellow"
+                />
+
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/cat_back">
+            <RelativeLayout
+                android:paddingRight="5dp"
+                android:paddingLeft="5dp"
+                android:paddingBottom="15dp"
+                android:paddingTop="15dp"
+                android:background="@android:color/white"
+                android:layout_marginLeft="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+
+                <LinearLayout
+                    android:layout_centerVertical="true"
+                    android:id="@+id/icon_lay3"
+                    android:layout_width="50dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="2"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <de.hdodenhof.circleimageview.CircleImageView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:src="@drawable/notification_icon" />
+
+                    <TextView
+                        android:visibility="gone"
+                        android:layout_marginLeft="2dp"
+                        android:layout_marginRight="2dp"
+                        android:textAlignment="center"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Some Name"
+                        android:textColor="#333333"
+                        android:fontFamily="sans-serif"
+                        android:textSize="11sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_toLeftOf="@id/arrow_lay3"
+                    android:layout_toRightOf="@id/icon_lay3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="7"
+                    android:layout_marginLeft="5dp"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:textColor="#333333"
+                        android:textSize="15sp" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="320 EGP has been added to your credit"
+                        android:singleLine="true"
+                        android:textColor="@color/blue_color"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+                    <TextView
+                        android:fontFamily="sans-serif"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text=""
+                        android:singleLine="true"
+                        android:textColor="#333333"
+                        android:textSize="16sp" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/arrow_lay3"
+                    android:layout_alignParentRight="true"
+                    android:layout_centerVertical="true"
+                    android:layout_width="wrap_content"
+                    android:gravity="center"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1">
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="3 Days"
+                        android:fontFamily="sans-serif" />
+
+                </LinearLayout>
+
+            </RelativeLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/yellow"
+                />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="wrap_content"
+            android:layout_height="90dp" />
+    </LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".Activites.FirstProgressActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <ProgressBar
+            android:id="@+id/progressBarOne"
+            style="?android:attr/progressBarStyleHorizontal"
+            android:layout_width="match_parent"
+            android:layout_height="4dp"
+            android:progress="0"
+            android:progressDrawable="@drawable/progress_background"
+            android:progressTint="#20ADDC" />
+
+        <FrameLayout
+            android:id="@+id/fragmentCenter"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+        </FrameLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_weight="0"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <TextView
+                android:id="@+id/tvFirstBottom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#28C9C7C7"
+                android:drawableRight="@drawable/right_arrrow"
+                android:drawablePadding="10dp"
+                android:gravity="end|center"
+                android:paddingRight="20sp"
+                android:text="next"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/tvSecondBottom"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#28C9C7C7"
+                android:drawableRight="@drawable/right_arrrow"
+                android:drawablePadding="10dp"
+                android:gravity="end|center"
+                android:paddingRight="20sp"
+                android:text="next"
+                android:textColor="@android:color/white"
+                android:textSize="16sp"
+                android:textStyle="bold"
+                android:visibility="gone" />
+
+            <LinearLayout
+                android:id="@+id/layoutBottomThird"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btnSkipThird"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#2196F3"
+                    android:text="skip"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvNextRightSkip"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#28C9C7C7"
+                    android:drawableRight="@drawable/right_arrrow"
+                    android:drawablePadding="10dp"
+                    android:gravity="right|center"
+                    android:paddingRight="20sp"
+                    android:text="next"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/layoutBottomLast"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:orientation="horizontal"
+                android:visibility="gone">
+
+                <Button
+                    android:id="@+id/btnSkipLast"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#2196F3"
+                    android:text="skip"
+                    android:textSize="18sp"
+                    android:textAllCaps="false"
+                    android:textColor="@android:color/white" />
+
+                <TextView
+                    android:id="@+id/tvBottomLast"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_gravity="center"
+                    android:background="#FFC107"
+                    android:drawableRight="@drawable/right_arrrow"
+                    android:drawablePadding="10dp"
+                    android:gravity="right|center"
+                    android:paddingRight="20sp"
+                    android:text="verify"
+                    android:textColor="@android:color/white"
+                    android:textSize="18sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+<!--    <View-->
+<!--        android:layout_width="match_parent"-->
+<!--        android:layout_height="4dp"-->
+<!--        android:layout_weight="0"-->
+<!--        android:background="#FFC107" />-->
+
+</LinearLayout>

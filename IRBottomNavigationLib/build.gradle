@@ -1,0 +1,38 @@
+apply plugin: 'com.novoda.bintray-release'
+apply plugin: 'com.android.library'
+
+android {
+    compileSdkVersion 30
+
+    defaultConfig {
+        minSdkVersion 19
+        targetSdkVersion 30
+        versionCode 1
+        versionName "1.1"
+        vectorDrawables.useSupportLibrary = true
+    }
+
+    buildTypes {
+        release {
+            tasks.withType(Javadoc).all { enabled = false }
+            minifyEnabled false
+            proguardFiles getDefaultProguardFile('proguard-android.txt'), 'proguard-rules.pro'
+        }
+    }
+}
+
+dependencies {
+    implementation fileTree(dir: 'libs', include: ['*.jar'])
+    implementation "androidx.core:core:1.3.2"
+    implementation 'com.google.android.material:material:1.3.0'
+
+}
+
+publish {
+    groupId = 'com.github.irfaan008'
+    artifactId = 'IRBottomNavigationView'
+    publishVersion = '1.0.1'
+    desc = 'IR Bottom Navigation View'
+    licences = ['MIT']
+    website = 'https://github.com/irfaan008/IR-Bottom-Navigation-View'
+}

@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_weight="1"
+    android:gravity="center"
+    android:layout_marginBottom="80dp"
+    android:orientation="vertical"
+    tools:context=".FragmentProgressTwo.FragTenthProTwo">
+
+    <ImageView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:adjustViewBounds="true"
+        android:contentDescription="@null"
+        android:src="@drawable/person_icon_complete" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center"
+        android:text="Mabrouk!"
+        android:textColor="#383F4D"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="-12dp"
+        android:gravity="center"
+        android:text="Your profile is complete"
+        android:textColor="#383F4D"
+        android:textSize="22sp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="40dp"
+        android:layout_marginRight="40dp"
+        android:gravity="center"
+        android:lineSpacingExtra="-8dp"
+        android:text="You can now search and apply for jobs in your city and throughout the country. We wish you all the best! "
+        android:textColor="#222121"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/reg_find_work_button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:gravity="center"
+        android:text="Find Work"
+        android:textColor="#03A9F4"
+        android:textSize="25dp"
+        android:textStyle="bold" />
+
+</LinearLayout>

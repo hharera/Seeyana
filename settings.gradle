@@ -1,0 +1,6 @@
+//include ':IRBottomNavigationLi'
+//include ':app'
+////project(':IRBottomNavigationLib2').projectDir = new File(rootDir, 'IRBottomNavigationLib/')
+////project('IRBottomNavigationLi').projectDir = new File(rootDir, 'IRBottomNavigationLib/build.gradle')
+
+include ':app', ':IRBottomNavigationLib'

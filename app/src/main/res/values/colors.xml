@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#4D8ABE</color>
+    <color name="colorPrimaryDark">#4D8ABE</color>
+    <color name="colorAccent">#FFC107</color>
+    <color name="sky_color">#4D8ABE</color>
+    <color name="sky_icon_color">#4D8ABE</color>
+    <color name="yellow">#FFC107</color>
+    <color name="center_icon_background">#DD4D4C4D</color>
+    <color name="toolbar">#D81B60</color>
+    <color name="white">#FFFF</color>
+    <color name="gray">#AFAFAF</color>
+    <color name="transparent">#00FFFFFF</color>
+
+    <color name="green">#008000</color>
+    <color name="red">#FF0000</color>
+    <color name="orange">#FFA500</color>
+    <color name="blue">#0000FF</color>
+    <color name="tundora">#4B4B4B</color>
+
+    <color name="mineShaft">#212121</color>
+
+    <color name="primaryColor">#212121</color>
+    <color name="primaryLightColor">#484848</color>
+    <color name="primaryDarkColor">#000000</color>
+    <color name="primaryTextColor">#ffffff</color>
+    <color name="grayNurse">#e1e2e1</color>
+
+    <color name="blue_color">#20addc</color>
+    <color name="blue_menu">#20ADDC</color>
+    <color name="light_blue_menu">#A54DA4CF</color>
+    <color name="light_map">#734DA4CF</color>
+    <color name="yellow_light">#DFFCC52E</color>
+    <color name="light_gray">#DCDCDC</color>
+    <color name="black">#383F4D</color>
+    <color name="txt_header">#8bfffb</color>
+    <color name="new_text_color">#7A818C</color>
+</resources>

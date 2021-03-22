@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <dimen name="skill_text_view_height">28dp</dimen>
+    <dimen name="skill_text_view_padding">5dp</dimen>
+    <dimen name="skill_text_view_text_size">10sp</dimen>
+
+</resources>

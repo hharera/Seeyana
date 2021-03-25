@@ -47,7 +47,8 @@
     <string name="home">Messages</string>
     <string name="reward">My Jobs</string>
     <string name="favorites">Job Invites</string>
-    <string name="profile">My Profile</string>
+    <string name="profile">Profile</string>
+    <string name="browse_jobs">Browse jobs</string>
     <string name="installation_of_water_heater_new_bathhub"><![CDATA[Installation of water heater & new bathhub\n]]></string>
     <string name="kitchen_faucet_replacement_sink_pipe_cleaning"><![CDATA[Kitchen faucet replacement & sink pipe cleaning]]></string>
     <string name="enter_your_cost_estimate">Enter your cost estimate<font color='#EE0000'>*</font></string>
@@ -59,5 +60,10 @@
     <string name="enter_otp_code">Enter the OTP Code sent to your phone</string>
     <string name="sign_in">Sign In</string>
     <string name="sign_out">Sign Out</string>
+    <string name="messages">Messages</string>
+    <string name="my_jobs">My Jobs</string>
+    <string name="job_invites">Job invites</string>
+    <string name="browse_all_jobs">Browse All jobs</string>
+    <string name="find_work">Find Work</string>
 
 </resources>

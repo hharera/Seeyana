@@ -5,6 +5,7 @@ import android.content.Intent
 import android.os.Bundle
 import android.widget.LinearLayout
 import androidx.appcompat.app.AppCompatActivity
+import com.example.n_one.Activites.main_nav.MainNavigationActivity
 import com.example.n_one.R
 import com.example.n_one.SeeyanaApp
 import com.google.firebase.FirebaseApp

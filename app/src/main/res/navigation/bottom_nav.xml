@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/bottom_nav"
+    app:startDestination="@id/browse_fragment">
+
+    <fragment
+        tools:layout="@layout/fragment_message_fragment"
+        android:id="@+id/messages_fragment"
+        android:name="com.example.n_one.FragmentsPart3.Message_fragment"
+        android:label="@string/messages" />
+    <fragment
+        tools:layout="@layout/fragment_myjob_"
+        android:id="@+id/jobs_fragment"
+        android:name="com.example.n_one.FragmentsPart3.Myjob_Fragment"
+        android:label="@string/my_jobs" />
+    <fragment
+        tools:layout="@layout/custom_browse_jobs"
+        android:id="@+id/browse_fragment"
+        android:name="com.example.n_one.FragmentsPart3.FragmentBrowseJobs"
+        android:label="@string/browse_jobs" />
+    <fragment
+        tools:layout="@layout/fragment_myjobs_invites"
+        android:id="@+id/jobs_invite_fragment"
+        android:name="com.example.n_one.FragmentsPart3.Myjobs_invites"
+        android:label="@string/job_invites" />
+    <fragment
+        tools:layout="@layout/activity_my_profile"
+        android:id="@+id/profile_fragment"
+        android:name="User"
+        android:label="@string/profile" />
+
+</navigation>

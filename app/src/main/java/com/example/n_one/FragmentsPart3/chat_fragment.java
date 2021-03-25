@@ -10,11 +10,10 @@ import androidx.fragment.app.FragmentTransaction;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
-import android.view.WindowManager;
 import android.widget.ImageView;
 import android.widget.LinearLayout;
 
-import com.example.n_one.Activites.MainNavigationActivity;
+import com.example.n_one.Activites.main_nav.MainNavigationActivity;
 import com.example.n_one.R;
 import com.example.n_one.utils.CommentKeyBoardFix;
 

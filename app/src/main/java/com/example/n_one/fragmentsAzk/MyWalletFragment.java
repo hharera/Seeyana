@@ -6,20 +6,16 @@ import android.os.Bundle;
 
 import androidx.fragment.app.Fragment;
 
-import android.service.autofill.TextValueSanitizer;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
 import android.widget.ImageView;
 import android.widget.TextView;
 
-import com.example.n_one.Activites.MainNavigationActivity;
+import com.example.n_one.Activites.main_nav.MainNavigationActivity;
 import com.example.n_one.R;
 import com.example.n_one.SeeyanaApp;
-import com.example.n_one.activitiesAzk.MyWalletActivity;
 import com.example.n_one.activitiesAzk.WithdrawRequestActivity;
-
-import org.w3c.dom.Text;
 
 import static android.app.Activity.RESULT_OK;
 

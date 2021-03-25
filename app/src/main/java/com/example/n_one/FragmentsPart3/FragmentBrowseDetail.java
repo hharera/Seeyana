@@ -19,7 +19,7 @@ import android.widget.Button;
 import android.widget.LinearLayout;
 import android.widget.TextView;
 
-import com.example.n_one.Activites.MainNavigationActivity;
+import com.example.n_one.Activites.main_nav.MainNavigationActivity;
 import com.example.n_one.Activites.PhoneNumberActivity;
 import com.example.n_one.Activites.SecondProgressActivity;
 import com.example.n_one.Adapter.ImageAdapter;

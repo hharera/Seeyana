@@ -35,4 +35,5 @@
     <color name="black">#383F4D</color>
     <color name="txt_header">#8bfffb</color>
     <color name="new_text_color">#7A818C</color>
+    <color name="text_gray">#383F4D</color>
 </resources>

@@ -15,7 +15,7 @@ import android.widget.LinearLayout;
 import android.widget.RelativeLayout;
 import android.widget.TextView;
 
-import com.example.n_one.Activites.MainNavigationActivity;
+import com.example.n_one.Activites.main_nav.MainNavigationActivity;
 import com.example.n_one.R;
 import com.example.n_one.objects.Chat;
 import com.example.n_one.objects.Message;

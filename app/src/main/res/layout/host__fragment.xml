@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.coordinatorlayout.widget.CoordinatorLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!--    <androidx.core.widget.NestedScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent"-->
+    <!--        android:clipToPadding="false">-->
+
+    <!--        <fragment-->
+    <!--            android:id="@+id/host_fragment"-->
+    <!--            android:name="androidx.navigation.fragment.NavHostFragment"-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="match_parent"-->
+    <!--            app:navGraph="@navigation/bottom_nav" />-->
+
+    <!--    </androidx.core.widget.NestedScrollView>-->
+
+    <!--    <com.google.android.material.bottomappbar.BottomAppBar-->
+    <!--        android:id="@+id/bottomAppBar"-->
+    <!--        style="@style/Widget.MaterialComponents.BottomAppBar.Colored"-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        android:layout_gravity="bottom"-->
+    <!--        app:menu="@menu/nav_menu"-->
+    <!--        app:navigationIcon="@drawable/ic_menu" />-->
+
+    <!--    <com.google.android.material.floatingactionbutton.FloatingActionButton-->
+    <!--        android:layout_width="wrap_content"-->
+    <!--        android:layout_height="wrap_content"-->
+    <!--        app:backgroundTint="@color/yellow"-->
+    <!--        app:fabAlignmentMode="center"-->
+    <!--        app:layout_anchor="@id/bottomAppBar"-->
+    <!--        app:rippleColor="@color/yellow"-->
+    <!--        app:srcCompat="@drawable/circle_grey"-->
+    <!--        android:contentDescription="TODO" />-->
+
+    <cn.onestravel.one.navigation.view.OneBottomNavigationBar
+        android:id="@+id/BottomLayout"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:background="@android:color/white"
+        android:paddingTop="5dp"
+        android:paddingBottom="5dp"
+        app:floatingEnable="true"
+        app:floatingUp="25dp"
+        app:menu="@menu/nav_menu" />
+
+
+</androidx.coordinatorlayout.widget.CoordinatorLayout>

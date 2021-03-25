@@ -11,7 +11,7 @@ import android.view.View;
 import android.view.ViewGroup;
 import android.widget.TextView;
 
-import com.example.n_one.Activites.MainNavigationActivity;
+import com.example.n_one.Activites.main_nav.MainNavigationActivity;
 import com.example.n_one.R;
 
 /**

@@ -49,7 +49,7 @@
             android:configChanges="orientation"
             android:screenOrientation="portrait"/>
         <activity
-            android:name=".Activites.MainNavigationActivity"
+            android:name=".Activites.main_nav.MainNavigationActivity"
             android:windowSoftInputMode="adjustResize"
             android:configChanges="orientation"
             android:screenOrientation="portrait">
